@@ -3,16 +3,17 @@
 
 
 
-<table>
+<table class="table">
     <tr>
         <th>Name</th>
         <th>Version</th>
+        <th>Description</th>
 
     </tr>
 
     <tr ng-repeat="i in infoArray | limitTo: pos | limitTo: -5">
         <td>{{i.name}}</td>
-        <td>{{i.version}}</td>
+        <td  class="btn--add">{{i.version}}</td>
         <td>{{i.description}}</td>
     </tr>
 
