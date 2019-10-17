@@ -1,21 +1,50 @@
 
-<p class="notification">Navega con los datos</p>
-
+<p class="btn--rm medium">Navega con los datos</p>
+<br><br><br><br>
 
 
 <table class="table">
     <tr>
+
         <th>Name</th>
         <th>Version</th>
         <th>Description</th>
 
     </tr>
 
-    <tr ng-repeat="i in infoArray | limitTo: pos | limitTo: -5">
-        <td>{{i.name}}</td>
-        <td  class="btn--add">{{i.version}}</td>
-        <td>{{i.description}}</td>
+    <tr ng-repeat="i in infoArray | limitTo: pos |limitTo: -5">
+
+        <td> {{i.name}} </td>
+        <td> {{i.version}} </td>
+        <td> {{i.description}} </td>
+
     </tr>
 
 </table>
+
+
+<!--
+    counter
+-->
+<div class="btn--yes large">
+    <span>{{counter}} de {{len}}</span>
+</div>
+
+<br><br>
+
+
+
+<!--
+    buttons of back or next
+-->
+<section class="list">
+
+    <button class="btn--rm" ng-click="backs()">Anterior</button>
+    <button class="btn--yes" ng-click="nexts()">Siguiente</button>
+
+</section>
+
+
+
+
 
