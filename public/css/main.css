@@ -1,0 +1,14 @@
+.repeating{
+    color:blue;
+    font-family: arial;
+    color: white;
+    border-radius: 4px;
+    transform: scale(.9);
+    transition: 1s;
+    font-size: 15px;
+    background-color: red;
+    display: inline-block;
+    height: 22px;
+    text-align: center;
+    font-weight: 600;
+}

@@ -10,9 +10,18 @@
 <br><br><br><br>
 
 <!--
+    Searching  data
+-->
+<form class="form">
+    <input type="search" title="search" placeholder="Search technologies" ng-model="search">
+    <span class="repeating">{{search}}</span>
+</form>
+<br>
+
+
+<!--
     structure of data
 -->
-
 <table class="table">
     <tr>
 
@@ -25,7 +34,8 @@
     <!--
         showing data of controller
     -->
-    <tr ng-repeat="i in infoArray | limitTo: pos |limitTo: -5">
+    <tr ng-repeat="i in infoArray | filter: search | limitTo: pos |limitTo: -5">
+
 
         <td> {{i.name}} </td>
         <td> {{i.version}} </td>
