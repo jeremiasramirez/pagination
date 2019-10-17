@@ -1,0 +1,60 @@
+[{
+  "name": "C++",
+  "version": "lastversion",
+  "description": "Tecnologia para software en general",
+  "main": "apps.cpp"
+},
+  {
+    "name": "Javascript",
+    "version": "1.4.0",
+    "description": "Tecnologia web frontend",
+    "main": "apk.js"
+  },
+  {
+    "name": "Html",
+    "version": "5",
+    "description": "Tecnologia web para marcar informacion",
+    "main": "apk.html"
+  },
+  {
+    "name": "Css",
+    "version": "5",
+    "description": "Tecnologia web para estilizar informacion.",
+    "main": "apk.css"
+  },
+  {
+    "name": "Python",
+    "version": "3",
+    "description": "Tecnologia para crear scripts para web y distintas plataformas..",
+    "main": "apk.py"
+  },
+  {
+    "name": "Java",
+    "version": "8",
+    "description": "Tecnologia para crear software puros y webapp",
+    "main": "apk.java"
+  },
+  {
+    "name": "Jquery",
+    "version": "8",
+    "description": "Tecnologia  frontend javascript para administrar el DOM mas rapido",
+    "main": "apk.js"
+  },
+  {
+    "name": "Php",
+    "version": "1.4.0",
+    "description": "Tecnologia para backend",
+    "main": "apk.php"
+  },
+  {
+    "name": "Laravel",
+    "version": "1.4.0",
+    "description": "framework web php",
+    "main": "apk.php"
+  },
+  {
+    "name": "NODE js",
+    "version": "1.2.1",
+    "description": "entorno de desarrollo javascript del lado servidor",
+    "main": "apk.js"
+  }]
