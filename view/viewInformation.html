@@ -1,10 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+
+<p class="notification">Navega con los datos</p>
+
+
+
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Version</th>
+
+    </tr>
+
+    <tr ng-repeat="i in infoArray | limitTo: pos | limitTo: -5">
+        <td>{{i.name}}</td>
+        <td>{{i.version}}</td>
+        <td>{{i.description}}</td>
+    </tr>
+
+</table>
+
