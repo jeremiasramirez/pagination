@@ -65,5 +65,40 @@
     "description": "Framework para crear interfaces en dart.",
     "main": "apk.dart"
   }
+,
+  {
+    "name": "React.js",
+    "version": "2.9.2",
+    "description": "Libreria para crear interfaces y componentes web.",
+    "main": "apk.rjxs"
+  }
+,
+  {
+    "name": "Intellij idea",
+    "version": "1.5.8",
+    "description": "IDE para desarrollo de software",
+    "main": "Intelij"
+  }
+,
+  {
+    "name": "Arduino",
+    "version": "1.5.8",
+    "description": "Lenguaje para construir electronica.",
+    "main": "apk.c"
+  }
+,
+  {
+    "name": "Machine learning",
+    "version": "1.5.8",
+    "description": "Manera de crear apps inteligentes",
+    "main": ".py .R"
+  }
+,
+  {
+    "name": "Django",
+    "version": "1.5.8",
+    "description": "Framework web de python",
+    "main": "apk.py"
+  }
 ]
 

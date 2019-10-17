@@ -1,7 +1,17 @@
-
+<!--
+    title of page data
+-->
 <p class="btn--rm medium">Navega con los datos</p>
+
+
+<!--
+    blank line (bad practice)
+-->
 <br><br><br><br>
 
+<!--
+    structure of data
+-->
 
 <table class="table">
     <tr>
@@ -12,6 +22,9 @@
 
     </tr>
 
+    <!--
+        showing data of controller
+    -->
     <tr ng-repeat="i in infoArray | limitTo: pos |limitTo: -5">
 
         <td> {{i.name}} </td>

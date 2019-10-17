@@ -4,8 +4,10 @@ app.controller("showData", ["$scope", "$http", ($scope, $http)=>{
 
     $scope.pathInformation = "view/viewInformation.html";
 
+    /*
+        pagination logic
 
-    //pagination logic
+     */
 
     $scope.infoArray = [];
     $scope.pos = 5;
@@ -13,12 +15,16 @@ app.controller("showData", ["$scope", "$http", ($scope, $http)=>{
     $scope.counter = 1;
 
 
-    //htt request to .json data
+    /*
+        htt request to .json data
+     */
+
     $http({
 
         method: "get",
         url: "/pagination/data/data.json"
 
+    //    if completed requested ?
     }).then((resp)=>{
 
         $scope.infoArray = resp.data;
@@ -27,6 +33,7 @@ app.controller("showData", ["$scope", "$http", ($scope, $http)=>{
 
     });
 
+    //if click to next button
 
     $scope.nexts = function(){
 
@@ -37,8 +44,19 @@ app.controller("showData", ["$scope", "$http", ($scope, $http)=>{
             $scope.pos += 5;
 
         }
+        /*
+            is equal to pos for returns to one element
+        */
+        else if($scope.counter === $scope.len){
+
+            $scope.pos = 5;
+            $scope.counter = 1;
+
+        }
 
     };
+
+    //if click to next button
 
     $scope.backs = function(){
         //decrementing counter & position of data
