@@ -57,4 +57,13 @@
     "version": "1.2.1",
     "description": "entorno de desarrollo javascript del lado servidor",
     "main": "apk.js"
-  }]
+  }
+,
+  {
+    "name": "Flutter",
+    "version": "1.2.1",
+    "description": "Framework para crear interfaces en dart.",
+    "main": "apk.dart"
+  }
+]
+
